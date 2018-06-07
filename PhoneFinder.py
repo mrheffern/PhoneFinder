@@ -26,11 +26,11 @@ def removePost(item):
 
 
 def main():
-    reddit = praw.Reddit(client_id='yhnSRoUeVjOAVQ',
-                         client_secret='-t5fWjArWZRrpnru_cpqOmXtd0c',
-                         password='newbreed',
+    reddit = praw.Reddit(client_id='',
+                         client_secret='',
+                         password='',
                          user_agent='testscript.v1.0./u/freenet420',
-                         username='freenet420')
+                         username='')
     subreddit = reddit.subreddit('ZenDen').new(limit=100)
 
 
